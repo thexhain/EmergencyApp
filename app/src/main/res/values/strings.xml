@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="app_name">Emergence</string>
+
+    <string-array name="spTipe">
+        <item>Pengguna</item>
+        <item>Polisi</item>
+        <item>Pemadam Kebakaran</item>
+        <item>Rumah Sakit</item>
+    </string-array>
+
+    <string-array name="spTipe2">
+        <item>Polisi</item>
+        <item>Pemadam Kebakaran</item>
+        <item>Rumah Sakit</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    
+    <string-array name="call">
+        <item>Polda Sulteng</item>
+        <item>Kodim 1306/Donggala</item>
+        <item>Polresta Palu</item>
+        <item>Polsek Palu Barat</item>
+        <item>Polsek Palu Selatan</item>
+        <item>Polsek Palu Timur</item>
+        <item>RSUD Undata</item>
+        <item>RSU Anutapura</item>
+        <item>RSU Bala Keselamatan</item>
+        <item>RSU Budi Agung</item>
+        <item>PMI Kartini Palu</item>
+        <item>Pemadam Kebakaran &amp; Penyelamatan</item>
+        <item>BASARNAS Palu</item>
+        <item>BPBD Palu</item>
+    </string-array>
+    <string-array name="callNo">
+        <item>0451456834</item>
+        <item>0451453272</item>
+        <item>0451421015</item>
+        <item>0451453207</item>
+        <item>0451481215</item>
+        <item>0451411441</item>
+        <item>0451421470</item>
+        <item>0451460570</item>
+        <item>0451421769</item>
+        <item>0451421360</item>
+        <item>0451451118</item>
+        <item>0451423113</item>
+        <item>0451481110</item>
+        <item>0451411354</item>
+    </string-array>
+
+    <string name="google_maps_api">AIzaSyCwvSd-OsVi_dEMS466VuSR5_OK8r5QO9Y</string>
+    <string name="err_tel">Invalid Phone Number</string>
+    <string name="err_name">Invalid Real Name</string>
+</resources>

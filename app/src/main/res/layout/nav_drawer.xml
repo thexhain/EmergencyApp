@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navHeader"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imgProf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <EditText
+        android:id="@+id/idNama"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:inputType="none"
+        android:paddingTop="8dp"
+        android:text="Hello"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="#FFFFFF"></EditText>
+
+    <EditText
+        android:id="@+id/idEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:inputType="none"
+        android:text="hello@jello.com"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"></EditText>
+
+</LinearLayout>

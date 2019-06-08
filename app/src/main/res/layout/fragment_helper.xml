@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="20dp">
+    <LinearLayout
+        android:id="@+id/fragMaps"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp">
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/helperMap"
+            android:name="com.google.android.gms.maps.SupportMapFragment"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragMaps"
+        android:layout_centerHorizontal="true"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:maxLines="8"
+        android:hint="Deskripsi Kejadian"/>
+    <Spinner
+        android:id="@+id/spTujuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtDesc"/>
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/btnLaporan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spTujuan"
+        android:text="Kirim"/>
+
+</RelativeLayout>

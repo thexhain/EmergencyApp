@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:backgroundTint="#000000">
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:text="EMail"/>
+    <TextView
+        android:id="@+id/slash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" - "
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/txtEmail"/>
+    <TextView
+        android:id="@+id/txtTelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/slash"
+        android:text="No. Telp"/>
+    <View
+        android:id="@+id/viewBar"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#6C6C6C"
+        android:layout_below="@id/txtEmail"/>
+    <TextView
+        android:id="@+id/txtDescr"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewBar"
+        android:text="Deskripsi"/>
+    <TextView
+        android:id="@+id/txtLokasi"
+        android:textSize="11sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDescr"
+        android:layout_marginBottom="10dp"
+        android:text="Lokasi"/>
+
+
+</RelativeLayout>
